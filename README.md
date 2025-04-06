@@ -5,7 +5,9 @@
 
 Çalışma ortamı Gereksinimleri
 1.Linux 5.x veya üstü kernel 
+
 2.Desteklenen Ağ Sürücüsü (XDP'nin Generic modu kullanıldığı için her ağ arayüzünde çalışamktadır.)
+
 3.Root Erişimi
 
 Not : .c uzantılı dosyayı derlemek için gerekli derleme programını kurduktan sonra terminal üzerinden "xdp_prog.c" dosyasının bulunduğu konumda "clang -O2 -target bpf -c xdp_prog.c -o xdp_prog.o" komutunu yazmak gerekmektedir.
