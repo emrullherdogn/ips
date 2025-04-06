@@ -11,7 +11,9 @@
 
 3.Root Erişimi
 
-Not : .c uzantılı dosyayı derlemek için gerekli derleme programını kurduktan sonra terminal üzerinden "xdp_prog.c" dosyasının bulunduğu konumda "clang -O2 -target bpf -c xdp_prog.c -o xdp_prog.o" komutunu yazmak gerekmektedir.
+.c uzantılı dosyayı derlemek için gerekli derleme programını kurduktan sonra terminal üzerinden "xdp_prog.c" dosyasının bulunduğu konumda "clang -O2 -target bpf -c xdp_prog.c -o xdp_prog.o" komutunu yazmak gerekmektedir.
+Derleme başarıyla tamamladıktan sonra .o uzantılı bir dosya oluşacaktır. Bu dosyayı kullanmak istediğiniz ağ arayüzüne entegre etmek gerekmektedir. Ağ arayüzüne entegre etmek için terminalde "sudo ip link set dev <arayuz> xdp obj xdp_prog.o sec xdp" komutu kullanılmalıdır. Entegre edilip edilmediği kontrol etmek için ise root modunda iken "ip a | grep xdp" yazmanız yeterlidir.
+
 
 
 
