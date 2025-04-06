@@ -3,7 +3,8 @@
 1. Clang + LLVM = eBPF bytecode üretmek için clang derleyicisi gerekir. (Yüklemek için "sudo apt install -y clang llvm libbpf-dev")
 2. Kernel Headers = Linux çekirdek kaynakları ya da başlık dosyaları. (Linux tabanlı işletim sistemlerinde güncelleme yapmak için "sudo apt update && sudo apt install linux-headers-$(uname -r)")
 
-Çalışma ortamı Gereksinimleri
+Çalışma Ortamı Gereksinimleri
+
 1.Linux 5.x veya üstü kernel 
 
 2.Desteklenen Ağ Sürücüsü (XDP'nin Generic modu kullanıldığı için her ağ arayüzünde çalışamktadır.)
