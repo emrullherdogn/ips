@@ -7,7 +7,7 @@
 
 1.Linux 5.x veya üstü kernel 
 
-2.Desteklenen Ağ Sürücüsü (XDP'nin Generic modu kullanıldığı için her ağ arayüzünde çalışamktadır.)
+2.Desteklenen Ağ Sürücüsü (XDP'nin Generic modu kullanıldığı için her ağ arayüzünde çalışmaktadır.)
 
 3.Root Erişimi
 
