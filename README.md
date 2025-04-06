@@ -65,4 +65,4 @@ ip a | grep xdp
 
 Bu komut, arayüzünüzde XDP’nin aktif olup olmadığını gösterir.
 
-
+Not : Yeni özellikler eklenecektir.
