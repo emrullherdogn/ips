@@ -1,4 +1,4 @@
-# XDP Programı Derleme ve Çalıştırma Rehberi
+# IPS Programı Derleme ve Çalıştırma Rehberi
 
 ## Gerekli Yazılımlar
 
